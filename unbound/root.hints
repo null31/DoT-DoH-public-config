@@ -1,38 +1,38 @@
-;       This file holds the information on root name servers needed to 
+;       This file holds the information on root name servers needed to
 ;       initialize cache of Internet domain name servers
 ;       (e.g. reference this file in the "cache  .  <file>"
-;       configuration file of BIND domain name servers). 
-; 
-;       This file is made available by InterNIC 
+;       configuration file of BIND domain name servers).
+;
+;       This file is made available by InterNIC
 ;       under anonymous FTP as
-;           file                /domain/named.cache 
+;           file                /domain/named.cache
 ;           on server           FTP.INTERNIC.NET
 ;       -OR-                    RS.INTERNIC.NET
-; 
-;       last update:     September 30, 2019 
-;       related version of root zone:     2019093001
-; 
-; FORMERLY NS.NASA.GOV
 ;
-.                        3600000      NS    E.ROOT-SERVERS.NET.
-E.ROOT-SERVERS.NET.      3600000      A     192.203.230.10
-E.ROOT-SERVERS.NET.      3600000      AAAA  2001:500:a8::e
-; 
+;       last update:     September 14, 2020
+;       related version of root zone:     2020091401
+;
 ; FORMERLY NS.ISC.ORG
 ;
 .                        3600000      NS    F.ROOT-SERVERS.NET.
 F.ROOT-SERVERS.NET.      3600000      A     192.5.5.241
 F.ROOT-SERVERS.NET.      3600000      AAAA  2001:500:2f::f
-; 
-; OPERATED BY VERISIGN, INC.
 ;
-.                        3600000      NS    J.ROOT-SERVERS.NET.
-J.ROOT-SERVERS.NET.      3600000      A     192.58.128.30
-J.ROOT-SERVERS.NET.      3600000      AAAA  2001:503:c27::2:30
-; 
-; OPERATED BY ICANN
+; FORMERLY AOS.ARL.ARMY.MIL
 ;
-.                        3600000      NS    L.ROOT-SERVERS.NET.
-L.ROOT-SERVERS.NET.      3600000      A     199.7.83.42
-L.ROOT-SERVERS.NET.      3600000      AAAA  2001:500:9f::42
+.                        3600000      NS    H.ROOT-SERVERS.NET.
+H.ROOT-SERVERS.NET.      3600000      A     198.97.190.53
+H.ROOT-SERVERS.NET.      3600000      AAAA  2001:500:1::53
+;
+; FORMERLY NIC.NORDU.NET
+;
+.                        3600000      NS    I.ROOT-SERVERS.NET.
+I.ROOT-SERVERS.NET.      3600000      A     192.36.148.17
+I.ROOT-SERVERS.NET.      3600000      AAAA  2001:7fe::53
+;
+; OPERATED BY WIDE
+;
+.                        3600000      NS    M.ROOT-SERVERS.NET.
+M.ROOT-SERVERS.NET.      3600000      A     202.12.27.33
+M.ROOT-SERVERS.NET.      3600000      AAAA  2001:dc3::35
 ; End of file
