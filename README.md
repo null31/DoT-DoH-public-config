@@ -1,3 +1,3 @@
-# Configuration files from my public DoT/DoH server running DNSDist + Unbound.
+# Configuration files from my public DoT/DoH server running Nginx + Unbound.
 
-- Webpage: http://ibuki.cgnat.net
+- Webpage: https://ibuki.cgnat.net
