@@ -1,3 +1,3 @@
-# Configuration files from my public DoT/DoH server running Nginx + Unbound.
+This repo has been migrated to GitLab.
 
-- Webpage: https://ibuki.cgnat.net
+https://gitlab.com/null31/DoT-DoH-public-config
